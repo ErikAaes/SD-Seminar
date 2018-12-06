@@ -3,24 +3,33 @@ pageextension 50102 "CSD ResourceListExt" extends "Resource List"
     // CSD1.00 - 2018-01-01 - D. E. Veloper 
     layout
     {
-        // Add changes to page layout here
-    }
+        modify(Type)
+        {
+            Visible = Showtype;
+        }
+        addafter("Type")
+        {
+            field("CSD Resource Type"; "CSD Resource Type")
+            {
 
-    actions
-    {
-        // Add changes to page actions here
+            }
+            field("CSD Maximum Participants"; "CSD Maximum Participants")
+            {
+                Visible = ShowMaxField;
+            }
+        }
     }
-
 
     trigger OnOpenPage()
     begin
-        showtype := (GetFilter(Type) = '');
+        Showtype := (GetFilter(Type) = '');
         ShowMaxField := (GetFilter(Type) = format(Type::Machine));
     end;
 
     var
         [InDataSet]
-        showtype: Boolean;
+        Showtype: Boolean;
+        [InDataSet]
         ShowMaxField: Boolean;
 
 }
