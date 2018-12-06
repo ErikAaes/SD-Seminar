@@ -12,15 +12,15 @@ pageextension 50102 "CSD ResourceListExt" extends "Resource List"
     }
 
 
-    var
-        [InDataSet]
-        showtype: Boolean;
-        ShowMaxField: Boolean;
-
     trigger OnOpenPage()
     begin
         showtype := (GetFilter(Type) = '');
         ShowMaxField := (GetFilter(Type) = format(Type::Machine));
     end;
+
+    var
+        [InDataSet]
+        showtype: Boolean;
+        ShowMaxField: Boolean;
 
 }
