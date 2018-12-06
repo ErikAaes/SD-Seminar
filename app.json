@@ -1,0 +1,26 @@
+{
+  "id": "d93a61c5-8ecb-4ad7-a6f6-9cfe530ed09c",
+  "name": "SD Seminar",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./prut.jpg",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "runtime": "2.1",
+  "showMyCode": true,
+  "target": "Internal",
+  "features": ["TranslationFile"]
+}
