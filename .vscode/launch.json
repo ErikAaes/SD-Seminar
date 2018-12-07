@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "localhost",
             "server": "http://localhost",
-            "serverInstance": "BC130",
+            "serverInstance": "DynamicsNAV130",
             "authentication": "Windows",
             "startupObjectType": "Page",
             "breakOnError": true,

@@ -19,7 +19,7 @@
     "from": 50100,
     "to": 50149
   },
-  "runtime": "2.1",
+  "runtime": "2.0",
   "showMyCode": true,
   "target": "Internal",
   "features": ["TranslationFile"]
