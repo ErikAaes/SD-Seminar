@@ -9,12 +9,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4035078560 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Primary key</source>
+          <source>Primary Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4035078560 - Field 1680254837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No. Series</source>
+          <source>Seminar Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Setup - Field Seminar Nos. - Property Caption</note>
         </trans-unit>
@@ -27,6 +27,11 @@
           <source>Posted Seminar Reg. Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Setup - Field Posted Seminar Reg. Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4035078560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1023874429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar</source>
@@ -68,10 +73,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar - Field Blocked - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1023874429 - Field 2626717425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Last Modified Date</source>
+        <trans-unit id="Table 1023874429 - Field 2393253273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Date Modified</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar - Field Last Modified Date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar - Field Last Date Modified - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1023874429 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Comment</source>
@@ -98,15 +103,70 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar - Field No. Series - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4096966466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Comment Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3808951907 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar,Seminar Registration,Posted Seminar Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Table Name - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 2480638018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Document Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4096966466 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Comment Line - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 729898515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1030630441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Comment Sheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Comment Sheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2853201158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Comment List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Comment List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3747827805 - Control 2205917413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Room</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CSD ResourceCardExt - Control CSD Room - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2331780929 - Change 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Instruction,Room</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResourceExt - Change Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2331780929 - Field 1204095466 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resource Type</source>
@@ -119,7 +179,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResourceExt - Field CSD Resource Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2331780929 - Field 3679661628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Maximum Perticipants</source>
+          <source>Maximum Participants</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD ResourceExt - Field CSD Maximum Participants - Property Caption</note>
         </trans-unit>
