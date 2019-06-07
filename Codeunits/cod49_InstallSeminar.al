@@ -65,7 +65,7 @@ codeunit 50149 InstallSeminar
         SourceCode.Code := 'SEMINAR';
         if SourceCode.Insert then;
         SourceCodeSetup.get;
-        //SourceCodeSetup."CSD Seminar" := 'SEMINAR';
+        SourceCodeSetup."CSD Seminar" := 'SEMINAR';
         SourceCodeSetup.modify;
      end;
     local procedure CreateSeminar();
@@ -74,7 +74,7 @@ codeunit 50149 InstallSeminar
     begin
         Seminar."No.":='SOLDEV';
         Seminar.Validate(Name,'Solution Development');
-        Seminar.Validate("Gen. Prod. Posting Group",'DIV');
+        Seminar.Validate("Gen. Prod. Posting Group",'MISC');
         Seminar."Maximum Participants":=12;
         Seminar."Minimum Participants":=4;
         Seminar."Seminar Duration":=5;
@@ -88,7 +88,7 @@ codeunit 50149 InstallSeminar
         Resource.init;
         Resource."No.":='INSTR';
         Resource.Name:='Mr. Instructor';
-        Resource.validate("Gen. Prod. Posting Group",'DIV');
+        Resource.validate("Gen. Prod. Posting Group",'MISC');
         Resource."Direct Unit Cost":=100;
         Resource."CSD Quantity Per Day":=8;
         Resource.Type:=Resource.Type::Person;
