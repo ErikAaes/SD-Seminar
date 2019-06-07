@@ -347,7 +347,12 @@ table 50110 "CSD Seminar Reg. Header"
             SeminarSetup.TestField("Seminar Registration Nos.");
             NoSeriesMgt.InitSeries(SeminarSetup."Seminar Registration Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
+        InitRecord();
 
+    end;
+
+    local procedure InitRecord()
+    begin
         if "Posting Date" = 0D then
             "Posting Date" := WORKDATE;
         "Document Date" := WORKDATE;
